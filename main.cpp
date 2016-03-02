@@ -17,16 +17,14 @@ void numPrint()
 
 int main()
 {
-	
 	cout << "Please enter a sentence: ";
-	
 	cin >> sent;
 	cout << endl;
+	
 	numPrint();
 
 	cin.ignore();
 	cin.get();
-
 
 	return 0;
 }
